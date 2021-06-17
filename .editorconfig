@@ -1,0 +1,31 @@
+# EditorConfig helps developers define and maintain consistent 
+# coding styles between different editors and IDEs.
+# editorconfig.org
+
+# Top-most EditorConfig file.
+root = true
+
+# Unix-style newlines with a newline ending every file.
+[*]
+
+# Change these settings to own preference.
+indent_style = space
+indent_size = 4
+
+# Recommend to keep these unchanged.
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Set default charset.
+charset = utf-8
+
+# Indentation override for all yml files.
+[*.yml]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all md files.
+[*.md]
+trim_trailing_whitespace = false
