@@ -1,2 +1,11 @@
-# software-engineer
-Software Enginerr
+# Software Engineer
+
+
+## Development Skill
+
+
+## Infrastructure Skill
+
+
+## Soft Skill
+
