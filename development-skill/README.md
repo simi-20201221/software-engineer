@@ -16,9 +16,6 @@
 ### Development Principle
 
 
-### Programming Paradigm
-
-
 ### [Programming Paradigm](programming-paradigm/README.md)
 
 
