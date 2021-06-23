@@ -1,4 +1,5 @@
 # Software Engineer
+============
 
 
 ## Reference
@@ -7,13 +8,14 @@
 * [Outline of software engineering - wikipedia](https://en.wikipedia.org/wiki/Outline_of_software_engineering)
 
 
-## Content 
-
-## Development Skill
+## Content
 
 
-## Infrastructure Skill
+## [Development Skill](development-skill/README.md)
 
 
-## Soft Skill
+## [Infrastructure Skill](infrastructure-skill/README.md)
+
+
+## [Soft Skill](soft-skill/README.md)
 
