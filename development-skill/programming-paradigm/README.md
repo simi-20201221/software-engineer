@@ -16,7 +16,7 @@
 ### Imperative
 
 * [ ] Procedural
-* [ ] Object Oriented
+* [x] Object Oriented
 
 
 ### Declarative
