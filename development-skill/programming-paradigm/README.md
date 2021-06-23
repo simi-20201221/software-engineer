@@ -16,7 +16,7 @@
 ### Imperative
 
 * [ ] Procedural
-* [x] Object Oriented
+* [x] [Object Oriented](imperative/object-oriented/README.md)
 
 
 ### Declarative
