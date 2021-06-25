@@ -13,7 +13,13 @@
 ### Development Methodology
 
 
-### Development Principle
+### [Software Design](software-design/README.md)
+
+
+### [Development Principle](development-principle/README.md)
+
+
+### Development Process
 
 
 ### [Programming Paradigm](programming-paradigm/README.md)
