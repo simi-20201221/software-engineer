@@ -70,8 +70,30 @@
     * A subclass shouldn’t change the values of private fields of the superclass. 
       * Some programming languages let access private members of a class via reflection mechanisms. 
       * Other languages (Python, JavaScript) don’t have any protection for the private members at all.
+    * ![LSP - Before](lsp-before.png)
+    * ![LSP - After](lsp-after.png)
 * **(4) ISP - Interface Segregation Principle**
+  * `Clients shouldn’t be forced to depend on methods they do not use.`
+  * => Try to make interfaces narrow enough that client classes don’t have to implement behaviors they don’t need.
+  => should break down “fat” interfaces into more granular and specific ones. 
+  => Clients should implement only those methods that they really need. 
+  => Class inheritance lets a class have just one superclass, but it doesn’t limit the number of interfaces that the class can implement at the same time. Hence, there’s no need to cram tons of unrelated methods to a single interface. 
+  * ![ISP - Before](isp-before.png)
+  * ![ISP - After](isp-after.png)
 * **(5) DIP - Dependency Inversion Principle**
+  * `High-level classes shouldn’t depend on low-level classes. Both should depend on abstractions. Abstractions shouldn’t depend on details. Details should depend on abstractions.`
+  * => `Low-level classes` implement basic operations such as working with a disk, transferring data over a network, connecting to a database, etc.
+  * => `High-level classes` contain complex business logic that directs low-level classes to do something.
+  * => `The dependency inversion principle` suggests changing the direction of dependency.
+    * (1) For starters, need to describe interfaces for low-level operations that high-level classes rely on, preferably in business terms.
+      * For instance, business logic should call a method openReport(file) rather than a series of methods openFile(x) , readBytes(n) , closeFile(x). 
+      * These interfaces count as high-level ones.
+    * (2) Now can make high-level classes dependent on those interfaces, instead of on concrete low-level classes. 
+      * This dependency will be much softer than the original one.
+    * (3) Once low-level classes implement these interfaces, they become dependent on the business logic level, reversing the direction of the original dependency.
+  * The dependency inversion principle often goes along with the open/closed principle: can extend low-level classes to use with different business logic classes without breaking existing classes.
+  * ![DIP - Before](dip-before.png)
+  * ![DIP - After](dip-after.png)
 
 
 ### KISS
