@@ -12,7 +12,7 @@
 ## Content
 
 
-### SOLID
+### SOLID Principle
 
 * **(1) SRP - Single Responsibility Principle**
   * `A class should have just one reason to change.`
@@ -96,11 +96,17 @@
   * ![DIP - After](dip-after.png)
 
 
-### KISS
+### KISS, YAGNI and DRY Principle
 
-
-### YAGNI
-
-
-### DRY
+* https://people.apache.org/~fhanik/kiss.html
+* https://www.interaction-design.org/literature/article/kiss-keep-it-simple-stupid-a-design-principle
+* https://henriquesd.medium.com/dry-kiss-yagni-principles-1ce09d9c601f
+* https://www.itexico.com/blog/software-development-kiss-yagni-dry-3-principles-to-simplify-your-life
+* **(1) KISS - Keep It Simple Stupid**
+  * Most systems work best if they are kept simple rather than made complicated.
+* **(2) YAGNI - You Aren’t Gonna Need It**
+  * A programmer should not add functionality until deemed necessary.
+* **(3) DRY - Don’t Repeat Yourself**
+  * Reducing repetition of software patterns, replacing it with abstractions or using data normalization to avoid redundancy.
+  * Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
